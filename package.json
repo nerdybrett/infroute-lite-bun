@@ -1,0 +1,16 @@
+{
+  "name": "infroute-lite-bun",
+  "version": "1.0.0",
+  "description": "Low-resource Bun runtime AI gateway (OpenAI-compatible) inspired by infroute/OmniRoute. One endpoint, multiple providers, quota-aware auto-fallback. Built for wispbyte free-tier servers.",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --hot run src/index.ts",
+    "check": "bun tsc --noEmit"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  },
+  "license": "MIT"
+}

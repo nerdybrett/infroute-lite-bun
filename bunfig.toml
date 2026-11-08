@@ -1,0 +1,7 @@
+[install]
+# No runtime dependencies -> keep node_modules tiny / optional
+dev = true
+
+[macro]
+# Keep type imports erased at runtime for minimal bundle/worker footprint
+import = ["${cwd}/src/types.ts"]
